@@ -1,0 +1,75 @@
+apropos "dump traffic"
+git clone git@github.com:nicolasgullo/TP_AySO.git
+ll
+mkdir repogit_2
+cd repogit_2
+ssh-keygen
+cat $HOME/.ssh/*.pub
+git clone git@github.com:nicolasgullo/TP_AySO.git
+ll
+cd TP_AySO/
+ll
+echo "Comando para dump traffic: tcpdump" > comando_dump_net
+ll
+cat comando_dump_net 
+echo "Comando para realizar la busqueda: apropos dump traffic" >> comando_dump_net
+cat comando_dump_net 
+git add .
+git commit -m "ADD: Comando para Capturar y analizar el tráfico de red"
+git config --global user.email "nicolas_gullo@hotmail.com"
+git config --global user.name "nicolasgullo"
+git commit -m "ADD: Comando para Capturar y analizar el tráfico de red"
+cat << END >> README.md
+Alumno: Nicolas Gabriel Gullo
+Division: 312
+Turno: Noche
+END
+
+git add .
+git commit -m "Se agrego informacion del alumno al archivo README"
+history -w ../.bash_history
+cd
+ll
+cd repogit_2
+cd TP_AySO/
+ll
+history -w $HOME/.bash_history
+apropos "dump traffic"
+git clone git@github.com:nicolasgullo/TP_AySO.git
+ll
+mkdir repogit_2
+cd repogit_2
+ssh-keygen
+cat $HOME/.ssh/*.pub
+git clone git@github.com:nicolasgullo/TP_AySO.git
+ll
+cd TP_AySO/
+ll
+echo "Comando para dump traffic: tcpdump" > comando_dump_net
+ll
+cat comando_dump_net 
+echo "Comando para realizar la busqueda: apropos dump traffic" >> comando_dump_net
+cat comando_dump_net 
+git add .
+git commit -m "ADD: Comando para Capturar y analizar el tráfico de red"
+git config --global user.email "nicolas_gullo@hotmail.com"
+git config --global user.name "nicolasgullo"
+git commit -m "ADD: Comando para Capturar y analizar el tráfico de red"
+cat << END >> README.md
+Alumno: Nicolas Gabriel Gullo
+Division: 312
+Turno: Noche
+END
+
+git add .
+git commit -m "Se agrego informacion del alumno al archivo README"
+history -w ../.bash_history
+cd
+ll
+cd repogit_2
+cd TP_AySO/
+ll
+history -w $HOME/.bash_history
+cd
+ll
+history -a $HOME/.bash_history
